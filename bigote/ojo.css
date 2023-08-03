@@ -1,0 +1,30 @@
+.ojo {
+    width: 280px;
+    height: 280px;
+    left: 315px;
+    top: 240px;
+    border-radius: 50%;
+    border: 6px solid black;
+    position: absolute;
+    
+}
+.ojo::before{
+    content: "";
+    width: 100px;
+    height: 150px;
+    top: 60px;
+    left: 100px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+.ojo::after{
+    content: "";
+    width: 220px;
+    height: 220px;
+    left: 25px;
+    top: 25px;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: absolute;
+}

@@ -1,0 +1,17 @@
+.cara {
+    width: 10px;
+    height: 400px;
+    left: 275px;
+    top: 280px;
+    border-right: 2px solid black;
+    position: absolute;
+}
+.cara::before{
+    content: "";
+    width: 10px;
+    height: 400px;
+    left: 350px;
+    border-right: 2px solid black;
+    transform-origin: left 210px;
+    position: absolute;
+}

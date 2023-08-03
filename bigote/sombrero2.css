@@ -1,0 +1,10 @@
+.sombrero2{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    top: 190px;
+    left: 210px;
+    border-bottom: solid 80px currentColor;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+}
